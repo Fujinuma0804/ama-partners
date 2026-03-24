@@ -1,0 +1,24 @@
+<svg width="1680" height="2579" viewBox="0 0 1680 2579" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_58_255" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="2020" width="1680" height="559">
+<path d="M0.99939 2578.46L0 2020H1680L1680 2337.09C1590.1 2377.26 1478.44 2415.77 1349.08 2435.6C1038.26 2483.22 876.039 2384.75 624.869 2383.4C468.434 2382.57 256.682 2419.3 0.99939 2578.5V2578.46Z" fill="#262F4C"/>
+</mask>
+<g mask="url(#mask0_58_255)">
+<rect y="963" width="1681" height="1702" fill="url(#paint0_radial_58_255)"/>
+</g>
+<mask id="mask1_58_255" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1680" height="2049">
+<path d="M1679 0.0435685L1680 2049H1.41881e-10L0 241.413C89.9049 201.243 201.563 162.728 330.921 142.905C641.745 95.2842 803.961 193.749 1055.13 195.1C1211.57 195.927 1423.32 159.199 1679 0V0.0435685Z" fill="#262F4C"/>
+</mask>
+<g mask="url(#mask1_58_255)">
+<rect x="0.5" y="-25.5" width="1680" height="2228" fill="url(#paint1_radial_58_255)" stroke="black"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_58_255" cx="0" cy="0" r="1" gradientTransform="matrix(902.037 927.269 -511.492 445.748 76.5455 1042.14)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#264C44"/>
+<stop offset="1" stop-color="#262F4C"/>
+</radialGradient>
+<radialGradient id="paint1_radial_58_255" cx="0" cy="0" r="1" gradientTransform="matrix(902.037 1214.38 -511.492 583.767 76.5455 77.6395)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#264C44"/>
+<stop offset="1" stop-color="#262F4C"/>
+</radialGradient>
+</defs>
+</svg>
