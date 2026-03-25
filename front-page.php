@@ -2,40 +2,7 @@
 <?php 
     get_header();
 ?>
-    <!-- Mobile Drawer and Overlay -->
-    <div class="drawer-overlay" id="drawer-overlay"></div>
-    <div class="mobile-drawer" id="mobile-drawer">
-        <!-- Drawer Header with Logo and Close Button -->
-        <div class="drawer-header">
-            <a href="index.html" class="drawer-logo">
-                <a href="index.html" class="logo-area">
-                    <div class="logo-icon">
-                        <!-- Example Logo Placeholder like AMA -->
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/main-logo.svg" alt="logo" />
-                    </div>
-                    <div class="logo-text">
-                        <span class="logo-title">AMA PARTNERS GLOBAL</span>
-                        <span class="logo-title">BY MAIKO ARIIZUMI</span>
-                    </div>
-                </a>
-            </a>
-            <button class="close-btn" aria-label="Close Mobile Menu" id="close-menu-btn">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" />
-                </svg>
-            </button>
-        </div>
-
-        <nav class="mobile-nav">
-            <a href="index.html">Home</a>
-            <a href="services.html">Service</a>
-            <a href="profile.html">Profile</a>
-            <a href="contact.html">お問い合わせ &rarr;</a>
-        </nav>
-
-
-    </div>
+    
     <main class="main-content">
       <section class="hero-section">
         <div class="hero-container">
