@@ -1500,6 +1500,28 @@ ul {
   text-underline-offset: 2px;
 }
 
+.contact-page .card .contact-form .form-message {
+  font-family: var(--font-family);
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0 0 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.contact-page .card .contact-form .form-message--success {
+  color: #0d4f2c;
+  background: #e8f5ec;
+  border: 1px solid #a8d5ba;
+}
+
+.contact-page .card .contact-form .form-message--error {
+  color: #6b1c1c;
+  background: #fce8e8;
+  border: 1px solid #e0a0a0;
+}
+
 /* ─── Submit Button ─────────────────────────────── */
 .contact-page .card .contact-form .btn-submit {
   font-family: var(--font-family);

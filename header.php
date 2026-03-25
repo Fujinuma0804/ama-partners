@@ -52,8 +52,8 @@
     <div class="mobile-drawer" id="mobile-drawer">
         <!-- Drawer Header with Logo and Close Button -->
         <div class="drawer-header">
-            <a href="index.html" class="drawer-logo">
-                <a href="index.html" class="logo-area">
+            <a href="<?php echo home_url(); ?>" class="drawer-logo">
+                <a href="<?php echo home_url(); ?>" class="logo-area">
                     <div class="logo-icon">
                         <!-- Example Logo Placeholder like AMA -->
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/logo.png" alt="logo" />

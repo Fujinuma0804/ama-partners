@@ -10,9 +10,6 @@
       </section>
     </main>
 
-    <!-- Script to load the header and initialize its JS -->
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/script.js"></script>
-
-    <?php wp_footer();?>
+    <?php wp_footer(); ?>
   </body>
 </html>

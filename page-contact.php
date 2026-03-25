@@ -179,11 +179,13 @@
  
         <!-- Privacy Policy Checkbox -->
         <div class="checkbox-row">
-          <input type="checkbox" id="privacy" name="privacy" required />
+          <input type="checkbox" id="privacy" name="privacy" value="1" required />
           <label class="checkbox-label" for="privacy">
             <a class="privacy-link" href="#">プライバシーポリシー</a>に同意する
           </label>
         </div>
+
+        <p class="form-message" id="contact-form-message" role="status" aria-live="polite" hidden></p>
  
         <!-- Submit -->
         <button type="submit" class="btn-submit">
