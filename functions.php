@@ -7,7 +7,7 @@ if (! defined('ABSPATH')) {
     exit;
 }
 
-define('AMA_CONTACT_RECIPIENT', 'crazydev084@gmail.com');
+define('AMA_CONTACT_RECIPIENT', 'maiko.ariizumi@live.jp');
 
 /**
  * Load theme JS site-wide; expose admin-ajax URL + nonce for the contact form.

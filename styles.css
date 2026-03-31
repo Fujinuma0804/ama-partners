@@ -18,6 +18,7 @@ html {
   --font-family: "Noto Serif JP", serif;
   -webkit-font-smoothing: antialiased;
   --secondary-font-family: "Philosopher", sans-serif;
+  --third-font-family: "Noto Sans JP", sans-serif;
   --hero-bg-color: linear-gradient(120.08deg, #033432 -7.87%, #172244 41.1%);
   --navy: #262f4c;
   --navy-mid: #2d3e6b;
@@ -64,7 +65,7 @@ html {
 }
 
 body {
-  font-family: var(--font-family);
+  font-family: var(--third-font-family);
   color: var(--text-color);
   background-color: #f8f8f8;
   overflow-x: hidden !important;
@@ -209,6 +210,7 @@ ul {
 }
 
 .hero-title {
+  font-family: var(--font-family);
   font-size: 50px;
   font-weight: 400;
   line-height: 80px;
@@ -533,6 +535,10 @@ ul {
   max-width: 1680px;
 }
 
+.message-title .highlight {
+  font-size: 48px;
+}
+
 .message-label {
   font-family: var(--secondary-font-family);
   font-size: 16px;
@@ -543,6 +549,7 @@ ul {
 }
 
 .message-title {
+  font-family: var(--font-family);
   font-size: 2.5rem;
   font-weight: 300;
   /* line-height: 1.4; */
@@ -552,7 +559,7 @@ ul {
 }
 
 .message-text {
-  font-family: var(--font-family);
+  font-family: var(--third-font-family);
   font-size: 1rem;
   color: var(--primary-color);
   margin-bottom: 25px;
@@ -799,6 +806,7 @@ ul {
 }
 
 .services-section .service-title {
+  font-family: var(--font-family);
   text-align: center;
 }
 
@@ -903,6 +911,7 @@ ul {
 }
 
 .organization-content-wrapper .organization-paragraph {
+  font-family: var(--font-family);
   font-weight: 400;
   font-size: 36px;
   line-height: 70px;
@@ -1606,7 +1615,6 @@ ul {
   font-size: 36px;
 }
 .services-info-description {
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 35px;
@@ -1652,13 +1660,12 @@ ul {
   font-size: 36px;
 }
 .services-description-section .s1-sec p {
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 35px;
 }
 .services-description-section .s2-sec img {
-  width: 100%;
+  width: 80%;
 }
 .horizontal-line-with-circle {
   width: 100%;
@@ -1721,9 +1728,10 @@ ul {
 
 /* Body */
 .custom-table tbody td {
-  padding: 16px;
+  font-family: var(--third-font-family);
+  padding: 30px 16px;
   vertical-align: top;
-  line-height: 1.6;
+  line-height: 2.0;
   border-right: 1px solid #fff;
 }
 
@@ -1785,7 +1793,6 @@ ul {
   width: 100%;
 }
 .seminar-container p {
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 35px;
@@ -1804,7 +1811,6 @@ ul {
   text-align: center;
 }
 .subject-description {
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 35px;
@@ -1822,7 +1828,6 @@ ul {
   padding-inline: 20px;
 }
 .participating-section {
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 35px;
@@ -1918,6 +1923,7 @@ ul {
 
 /* Table */
 .subject-table-services__table {
+  font-family: var(--third-font-family);
   border-top: 1px solid var(--primary-color);
 }
 
@@ -2458,6 +2464,10 @@ ul {
     margin-bottom: 30px;
   }
 
+  .message-title .highlight {
+    font-size: 36px;
+  }
+
   .message-text {
     font-size: 0.95rem;
     margin-bottom: 18px;
@@ -2662,6 +2672,10 @@ ul {
     font-size: 22px;
   }
 
+  .message-title .highlight {
+    font-size: 26px;
+  }
+
   .message-text {
     font-size: 14px;
     line-height: 1.6;
@@ -2777,6 +2791,10 @@ ul {
   .subject-table-services__content {
     padding: 16px;
     font-size: 13px;
+  }
+
+  .services-description-section .s2-sec img {
+    width: 100%;
   }
 }
 

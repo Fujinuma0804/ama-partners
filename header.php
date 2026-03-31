@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AMA Partners Global</title>
+    <meta name="description" content="有泉麻依子の公式サイト。サービス内容、プロフィール、実績をご紹介しています。お問い合わせはこちらから。">
+    <meta property="og:title" content="有泉 麻依子 | 公式サイト">
+    <meta property="og:description" content="有泉麻依子の公式サイト。サービス内容、プロフィール、実績をご紹介。">
+    <meta property="og:url" content="https://maikoariizumi.com/">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/x-icon" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/favicon.png">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,6 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
     <?php wp_head(); ?> 
   </head>
 

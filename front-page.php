@@ -65,7 +65,7 @@
           <div style="margin: 0 auto">
             <div class="message-content">
               <h2 class="message-label">Personal Message</h2>
-              <h1 class="message-title">なぜ、数字と心の両方を見るのか</h1>
+              <h1 class="message-title">なぜ、<span class="highlight">数字</span>と<span class="highlight">心</span>の両方を見るのか</h1>
 
               <p class="message-text">
                 企業の成長は、数字に現れます。<br />
@@ -184,11 +184,11 @@
                 そんな英国でのゴルフと気づきを発信しています。
               </p>
               <div class="quiet-moments-buttons">
-                <a href="#" class="qm-btn">
+                <a href="https://note.com/maichi77" class="qm-btn">
                   <span class="qm-text">Note</span>
                   <span class="qm-arrow">→</span>
                 </a>
-                <a href="#" class="qm-btn">
+                <a href="https://www.instagram.com/maichi77.a?igsh=a3RsOXQ3bG95cWh4" class="qm-btn">
                   <span class="qm-text">Instagram</span>
                   <span class="qm-arrow">→</span>
                 </a>
